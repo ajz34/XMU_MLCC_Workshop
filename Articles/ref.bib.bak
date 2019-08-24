@@ -1,0 +1,16 @@
+% Encoding: UTF-8
+
+@Article{Bartok-Csanyi.PRB.2013.87,
+  author    = {Albert P. Bart{\'{o}}k and Risi Kondor and G{\'{a}}bor Cs{\'{a}}nyi},
+  title     = {On representing chemical environments},
+  journal   = {Phys. Rev. B},
+  year      = {2013},
+  volume    = {87},
+  number    = {18},
+  month     = {may},
+  doi       = {10.1103/physrevb.87.184115},
+  file      = {:Bartok-Csanyi.PRB.2013.87.pdf:PDF},
+  publisher = {American Physical Society ({APS})},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
