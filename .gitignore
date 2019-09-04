@@ -1,3 +1,9 @@
+# ajz34
+temp*
+tmp*
+*.bak
+*.sav
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
