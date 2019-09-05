@@ -1,0 +1,6 @@
+GAP
+需要将本文件夹中的 plot_func.py 放到 gap-tutorial 文件夹中，方能执行其中的 Jupyter Notebook。
+GAP 的 Notebook 3 似乎在绘制铁原子的 Force Error 时有些小问题。我想在 gap-tutorial-2.tar.gz 应该能给出正确绘图了。
+
+DeePMD-kit
+需要先执行 bash clean.sh 后再进行 dpgen run ...；否则会出现找不到 cell_type 等错误。
