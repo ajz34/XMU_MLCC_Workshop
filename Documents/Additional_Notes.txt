@@ -1,6 +1,24 @@
+有 PPT 的部分：
+LASP, DPGEN (DeePMD-kit), AiiDA
+
 GAP
+docker run -it --rm -v /root/gap-tutorial/:/root/tutor/ -p 8899:8899 libatomsquip/quip:py2
 需要将本文件夹中的 plot_func.py 放到 gap-tutorial 文件夹中，方能执行其中的 Jupyter Notebook。
 GAP 的 Notebook 3 似乎在绘制铁原子的 Force Error 时有些小问题。我想在 gap-tutorial-2.tar.gz 应该能给出正确绘图了。
 
 DeePMD-kit
 需要先执行 bash clean.sh 后再进行 dpgen run ...；否则会出现找不到 cell_type 等错误。
+
+SISSO
+https://github.com/rouyang2017/SISSO
+
+CGCNN
+docker run -it --runtime nvidia --rm cloudac7/cgcnn:cuda-10.0-notebook bash
+
+GDyNN
+docker run -it --runtime nvidia --rm -p 8889:8888 -v /root/gdaynet-data:/workspace/gdynet/data cloudac7/gdynet:cuda-10.0-notebook
+docker run -it --runtime nvidia --rm -v /root/gdynet-data:/workplace/gdynet/data cloudac7/gdynet:cuda-10.0-notebook bash
+
+AiiDA
+主要的培训内容在下述网页的 Demo 小节中：
+https://aiida-tutorials.readthedocs.io/en/latest/pages/2019_Xiamen/index.html

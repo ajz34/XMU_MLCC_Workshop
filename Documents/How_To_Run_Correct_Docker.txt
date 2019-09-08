@@ -1,8 +1,0 @@
-GAP
-docker run -it --rm -v /root/gap-tutorial/:/root/tutor/ -p 8899:8899 libatomsquip/quip:py2
-
-CGCNN
-docker run -it --runtime nvidia --rm cloudac7/cgcnn:cuda-10.0-notebook bash
-
-GDyNN
-docker run -it --runtime nvidia --rm -v /root/gdynet-data:/workplace/gdynet/data cloudac7/gdynet:cuda-10.0-notebook bash
